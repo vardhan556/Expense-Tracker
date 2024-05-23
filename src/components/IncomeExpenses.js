@@ -9,7 +9,7 @@ const IncomeExpenses = ({balance, expenses}) => {
     <div className='ie-div'>
       <div className='income-div'>
         <h4>Income rem</h4>
-        <p style={incomeStyle} >{income}/-</p>
+        <p style={incomeStyle} >{balance}/-</p>
       </div>
       <div className='expenses-div'>
         <h4>Expenses</h4>
