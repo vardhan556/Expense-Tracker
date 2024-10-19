@@ -54,4 +54,42 @@ To get a local copy of the project up and running, follow these simple steps:
 git clone https://github.com/vardhan556/Expense-Tracker.git
 cd Expense-Tracker
 ```
+### 📅 Backend SetUp
+
+```bash
+cd app
+pip install -r requirements.txt
+python manage.py migrate
+python manage.py runserver
+```
+### 🖥️ FrontEnd SetUp
+
+```bash
+cd ../frontend
+npm i
+npm start
+```
+
+**📋Usage**
+
+ - After starting both the backend and frontend servers, navigate to http://localhost:3000 in your browser.
+ - You can create a new account or log in with your existing credentials.
+ - Add your transactions, view summaries, and manage your expenses efficiently!
+
+## 🤝 Contributing
+
+Contributions are welcome! If you would like to contribute to this project, please fork the repository and create a pull request with a description of your changes. 👥
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/YourFeature`) ✨
+3. Commit your Changes (`git commit -m 'Add some feature'`)
+4. Push to the Branch (`git push origin feature/YourFeature`) 🔄
+5. Open a Pull Request
+
+## 📄 License
+
+Distributed under the MIT License📜🔑
+
+
+**_Feel free to make any adjustments you need before pasting it into your GitHub repository_**
 
